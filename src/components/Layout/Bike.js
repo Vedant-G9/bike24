@@ -19,12 +19,12 @@ const Bike = ({ bike }) => {
 
           <div className="max-w-md p-3 px-5  shadow-sm rounded-lg my-2">
             <p className="mt-2 font-semibold text-base text-gray-600">
-              <span className="font-bold  text-gray-700">Bike Model : </span>{' '}
+              <span className="font-bold  text-gray-700">Model : </span>{' '}
               {bike.bkModel}
             </p>
             <p className="mt-2 font-semibold text-base text-gray-600">
-              <span className="font-bold  text-gray-700">Bike Model : </span>{' '}
-              {bike.bkModel}
+              <span className="font-bold  text-gray-700">Manufacture Year : </span>{' '}
+              {bike.bkYearofmauf}
             </p>
           </div>
         </div>

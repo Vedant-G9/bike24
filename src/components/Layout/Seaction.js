@@ -3,15 +3,15 @@ import React from 'react'
 const Seaction = () => {
   return (
     <div>
-      <div className="relative bg-indigo-800">
+      <div className="relative bg-blue-800">
         <div className="absolute inset-0">
           <img
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover animate-pulse "
             src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=100"
             alt=""
           />
           <div
-            className="absolute inset-0 bg-blue-800 mix-blend-multiply"
+            className="absolute inset-0 bg-indigo-800 mix-blend-multiply"
             aria-hidden="true"
           />
         </div>
