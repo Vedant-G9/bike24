@@ -6,6 +6,7 @@ import About from './components/Pages/About'
 import BikeHomeScreen from './components/Layout/BikeHomeScreen'
 import BikeScreen from './components/Layout/BikeScreen'
 import axios from 'axios'
+import Footer from './components/Layout/Footer'
 
 const App = (props) => {
   return (
@@ -26,7 +27,7 @@ const App = (props) => {
 
           <Route path="/product/:id" component={BikeScreen} />
           <Route path="/about" component={About} />
-        </Switch>
+        </Switch> <Footer/>
       </div>
     </Router>
   )

@@ -8,7 +8,7 @@ const BikeHomeScreen = () => {
   const [Bikes, setBike] = useState([])
   useEffect(() => {
     const fetchBike = async () => {
-      const { data } = await axios.get('http://localhost:5000/bike')
+      const { data } = await axios.get('https://bike24g9.herokuapp.com/bike')
       setBike(data)
     }
     fetchBike()

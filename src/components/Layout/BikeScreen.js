@@ -9,7 +9,7 @@ const BikeScreen = ({ match }) =>
     const fetchProduct = async () => {
       //eslint-disable-next-line
       const { data } = await axios.get(
-        `http://localhost:5000/bike/${match.params.id}`
+        `https://bike24g9.herokuapp.com/bike/${match.params.id}`
       )
 
       setProduct(data)
