@@ -3,6 +3,7 @@ import { Disclosure } from '@headlessui/react'
 import { SearchIcon } from '@heroicons/react/solid'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import bike from '../Image/bycicle.png'
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -46,12 +47,12 @@ const Navbar = () => {
                       >
                         Projects
                       </a>
-                      <a
-                        href="/"
+                      <Link
+                        to="/about"
                         className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                       >
-                        Calendar
-                      </a>
+                        Abouts Us
+                      </Link>
                     </div>
                   </div>
                 </div>

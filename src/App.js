@@ -25,6 +25,7 @@ const App = (props) => {
           />
 
           <Route path="/product/:id" component={BikeScreen} />
+          <Route path="/about" component={About} />
         </Switch>
       </div>
     </Router>
