@@ -23,9 +23,19 @@ const Bike = ({ bike }) => {
               {bike.bkModel}
             </p>
             <p className="mt-2 font-semibold text-base text-gray-600">
-              <span className="font-bold  text-gray-700">Manufacture Year : </span>{' '}
+              <span className="font-bold  text-gray-700">
+                Manufacture Year :{' '}
+              </span>{' '}
               {bike.bkYearofmauf}
             </p>
+          </div>
+          <div className="mt-6">
+            <button
+              className="text-white font-bold uppercase text-base px-5 py-2 rounded-full shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1  transition-all   bg-gray-500 hover:bg-blue-600 ease-in duration-150 "
+              type="button"
+            >
+              <Link to={`/product/${bike.id}`}>More</Link>
+            </button>
           </div>
         </div>
       </div>
